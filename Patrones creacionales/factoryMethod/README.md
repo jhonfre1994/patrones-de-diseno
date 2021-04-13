@@ -1,4 +1,4 @@
-# Singleton
+# Factory Method
 
 Tambien conocido como Método fábrica, Constructor virtual.
 
