@@ -1,0 +1,77 @@
+2021-04-20 10:54:34 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No hay datos disponibles.
+No data is available [2000-200]
+2021-04-20 10:54:37 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No hay datos disponibles.
+No data is available [2000-200]
+2021-04-20 10:54:40 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No hay datos disponibles.
+No data is available [2000-200]
+2021-04-20 11:04:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "'UPDATE persona SET nombres='jhon freddy', apellidos='perez cobos', edad='26[*]' WHERE ID=0"
+Syntax error in SQL statement "'UPDATE persona SET nombres='jhon freddy', apellidos='perez cobos', edad='26[*]' WHERE ID=0"; SQL statement:
+'UPDATE persona SET nombres='jhon freddy', apellidos='perez cobos', edad='26' WHERE ID=0 [42000-200]
+2021-04-20 11:05:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "'UPDATE persona SET nombres='jhon freddy', apellidos='perez cobos', edad='26[*]' WHERE ID=0"
+Syntax error in SQL statement "'UPDATE persona SET nombres='jhon freddy', apellidos='perez cobos', edad='26[*]' WHERE ID=0"; SQL statement:
+'UPDATE persona SET nombres='jhon freddy', apellidos='perez cobos', edad='26' WHERE ID=0 [42000-200]
+2021-04-20 11:06:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "'UPDATE persona SET nombres='jhon freddy', apellidos='perez cobos', edad='26[*]' WHERE ID=0"
+Syntax error in SQL statement "'UPDATE persona SET nombres='jhon freddy', apellidos='perez cobos', edad='26[*]' WHERE ID=0"; SQL statement:
+'UPDATE persona SET nombres='jhon freddy', apellidos='perez cobos', edad='26' WHERE ID=0 [42000-200]
+2021-04-20 11:06:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "'UPDATE persona SET nombres='[*]JHON FREDDY', apellidos='PEREZ COBOS', edad='26 WHERE ID=0"
+Syntax error in SQL statement "'UPDATE persona SET nombres='[*]JHON FREDDY', apellidos='PEREZ COBOS', edad='26 WHERE ID=0"; SQL statement:
+'UPDATE persona SET nombres='jhon freddy', apellidos='perez cobos', edad='26 WHERE ID=0 [42000-200]
+2021-04-20 11:07:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "'UPDATE persona SET nombres='[*]JHON FREDDY', apellidos='PEREZ COBOS', edad='26 WHERE ID=1"
+Syntax error in SQL statement "'UPDATE persona SET nombres='[*]JHON FREDDY', apellidos='PEREZ COBOS', edad='26 WHERE ID=1"; SQL statement:
+'UPDATE persona SET nombres='jhon freddy', apellidos='perez cobos', edad='26 WHERE ID=1 [42000-200]
+2021-04-20 11:07:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "'UPDATE persona SET nombres='[*]JHON FREDDY', apellidos='PEREZ COBOS', edad='26 WHERE ID=1"
+Syntax error in SQL statement "'UPDATE persona SET nombres='[*]JHON FREDDY', apellidos='PEREZ COBOS', edad='26 WHERE ID=1"; SQL statement:
+'UPDATE persona SET nombres='jhon freddy', apellidos='perez cobos', edad='26 WHERE ID=1 [42000-200]
+2021-04-20 11:07:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE PERSONA SET NOMBRES=JHON FREDDY[*]', apellidos='PEREZ COBOS', edad='26 WHERE ID=1"
+Syntax error in SQL statement "UPDATE PERSONA SET NOMBRES=JHON FREDDY[*]', apellidos='PEREZ COBOS', edad='26 WHERE ID=1"; SQL statement:
+UPDATE persona SET nombres=jhon freddy', apellidos='perez cobos', edad='26 WHERE ID=1 [42000-200]
+2021-04-20 11:08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "'UPDATE persona SET nombres='[*]JHON FREDDY, APELLIDOS='perez cobos, edad='26 WHERE ID=1"
+Syntax error in SQL statement "'UPDATE persona SET nombres='[*]JHON FREDDY, APELLIDOS='perez cobos, edad='26 WHERE ID=1"; SQL statement:
+'UPDATE persona SET nombres='jhon freddy, apellidos='perez cobos, edad='26 WHERE ID=1 [42000-200]
+2021-04-20 11:08:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE persona SET nombres='jhon freddy, apellidos='perez cobos, edad=[*]'26 WHERE ID=1"
+Syntax error in SQL statement "UPDATE persona SET nombres='jhon freddy, apellidos='perez cobos, edad=[*]'26 WHERE ID=1"; SQL statement:
+UPDATE persona SET nombres='jhon freddy, apellidos='perez cobos, edad='26 WHERE ID=1 [42000-200]
+2021-04-20 11:08:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE PERSONA SET NOMBRES='jhon freddy, apellidos='PEREZ[*] COBOS WHERE ID=1"
+Syntax error in SQL statement "UPDATE PERSONA SET NOMBRES='jhon freddy, apellidos='PEREZ[*] COBOS WHERE ID=1"; SQL statement:
+UPDATE persona SET nombres='jhon freddy, apellidos='perez cobos WHERE ID=1 [42000-200]
+2021-04-20 11:10:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE PERSONA SET NOMBRES='jhon freddy, apellidos=perez cobos, edad='26[*] WHERE ID=1"
+Syntax error in SQL statement "UPDATE PERSONA SET NOMBRES='jhon freddy, apellidos=perez cobos, edad='26[*] WHERE ID=1"; SQL statement:
+UPDATE persona SET nombres='jhon freddy, apellidos=perez cobos, edad='26 WHERE ID=1 [42000-200]
+2021-04-20 11:10:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE persona SET nombres=[*]'jhon freddy, apellidos=perez cobos, edad=26 WHERE ID=1"
+Syntax error in SQL statement "UPDATE persona SET nombres=[*]'jhon freddy, apellidos=perez cobos, edad=26 WHERE ID=1"; SQL statement:
+UPDATE persona SET nombres='jhon freddy, apellidos=perez cobos, edad=26 WHERE ID=1 [42000-200]
+2021-04-20 11:10:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE PERSONA SET NOMBRES=JHON FREDDY[*], APELLIDOS=PEREZ COBOS, EDAD=26 WHERE ID=1"
+Syntax error in SQL statement "UPDATE PERSONA SET NOMBRES=JHON FREDDY[*], APELLIDOS=PEREZ COBOS, EDAD=26 WHERE ID=1"; SQL statement:
+UPDATE persona SET nombres=jhon freddy, apellidos=perez cobos, edad=26 WHERE ID=1 [42000-200]
+2021-04-20 11:11:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE persona SET nombres=[*]'jhon freddy, apellidos=perez cobos, edad=26 WHERE ID=1"
+Syntax error in SQL statement "UPDATE persona SET nombres=[*]'jhon freddy, apellidos=perez cobos, edad=26 WHERE ID=1"; SQL statement:
+UPDATE persona SET nombres='jhon freddy, apellidos=perez cobos, edad=26 WHERE ID=1 [42000-200]
+2021-04-20 11:12:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE persona SET nombres=[*]'jhon freddy, apellidos=salamanca cobos, edad=26 WHERE ID=1"
+Syntax error in SQL statement "UPDATE persona SET nombres=[*]'jhon freddy, apellidos=salamanca cobos, edad=26 WHERE ID=1"; SQL statement:
+UPDATE persona SET nombres='jhon freddy, apellidos=salamanca cobos, edad=26 WHERE ID=1 [42000-200]
+2021-04-20 11:13:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE persona SET nombres=[*]'jhon freddy, apellidos=salamanca cobos, edad=26 WHERE ID=1"
+Syntax error in SQL statement "UPDATE persona SET nombres=[*]'jhon freddy, apellidos=salamanca cobos, edad=26 WHERE ID=1"; SQL statement:
+UPDATE persona SET nombres='jhon freddy, apellidos=salamanca cobos, edad=26 WHERE ID=1 [42000-200]
+2021-04-20 11:15:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO PERSONA(ID, NOMBRES, APELLIDOS, EDAD) VALUES (1,JHON FREDDY[*],SALAMANCA COBOS,26)"; se esperaba "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO PERSONA(ID, NOMBRES, APELLIDOS, EDAD) VALUES (1,JHON FREDDY[*],SALAMANCA COBOS,26)"; expected "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO persona(id, nombres, apellidos, edad) values (1,jhon freddy,salamanca cobos,26) [42001-200]
